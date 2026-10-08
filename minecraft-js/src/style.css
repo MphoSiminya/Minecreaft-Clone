@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+}
+
+/* The styling for the gui of the game */
+.world-gui {
+  width: 300px !important;
+
+  --background-color: rgba(15, 15, 20, 0.95);
+  --widget-color: #24242c;
+  --hover-color: #30303a;
+  --focus-color: #3d3d48;
+  --text-color: #f5f5f5;
+
+  border-radius: 10px;
+  overflow: hidden;
+
+  box-shadow:
+    0 10px 30px rgba(0, 0, 0, 0.4);
+
+  position: fixed !important;
+
+  top: auto !important;
+  bottom: 20px !important;
+
+  left: 20px !important;
+  right: auto !important;
+
+}
